@@ -40,7 +40,7 @@ public class Pessoa {
         
       this.calcularImc();
       
-      if(this.calcularImc() != null ){
+      if( imcI >= 15.0){
           
         if(sexo.equalsIgnoreCase ("F")){
                 if ((imcI >= 15.0) && (imcI <= 17.9)) { //abaixo do peso
