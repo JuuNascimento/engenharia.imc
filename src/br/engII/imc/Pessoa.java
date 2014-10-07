@@ -33,7 +33,7 @@ public class Pessoa {
             DecimalFormat df = new DecimalFormat("##.#");
             return df.format(imcI);
         }
-        return null;
+        return "Verifique o Peso e a Altura digitados!";
     }
 
     public String avaliacao() {

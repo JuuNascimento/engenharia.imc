@@ -6,19 +6,19 @@ import org.junit.Test;
 
 public class IMCITest {
 
-    //ALTURA É PESO VALIDOS!!! (NÃO PASSA)
+    //ALTURA E PESO VALIDOS!!! (NÃO PASSA)
     /*
      @Test
      public void testarAlturaPesoÑ() {
      //altura
      Pessoa p1 = new Pessoa(0.53, 60, "F");
-     assertEquals(p1.calcularImc(), "1233,5");
-
-     Pessoa p3 = new Pessoa(2.91, 70, "F");
-     assertEquals(p3.calcularImc(), "38,2");
+     assertEquals(p1.calcularImc(), "1233,5");    
         
      Pessoa p2 = new Pessoa(-1, 50, "F");
      assertEquals(p2.calcularImc(), "250");
+    
+     Pessoa p3 = new Pessoa(2.91, 70, "F");
+     assertEquals(p3.calcularImc(), "38,2");
         
      //peso
      Pessoa p4 = new Pessoa(1.60, -10, "F");
@@ -48,11 +48,11 @@ public class IMCITest {
         Pessoa p4 = new Pessoa(1.00, 20, "F");
         assertEquals(p4.calcularImc(), "20");
 
-        Pessoa p6 = new Pessoa(1.70, 300, "M");
-        assertEquals(p6.calcularImc(), "103,8");
+        Pessoa p5 = new Pessoa(1.70, 300, "M");
+        assertEquals(p5.calcularImc(), "103,8");
 
-        Pessoa p7 = new Pessoa(1.70, 597, "M");
-        assertEquals(p7.calcularImc(), "206,6");
+        Pessoa p6 = new Pessoa(1.70, 597, "M");
+        assertEquals(p6.calcularImc(), "206,6");
     }
 
      //-------------------------------------
